@@ -2,47 +2,42 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Mock Shopee Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopee-like Page</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-  <h1>Shopee</h1>
-  <!-- Search Bar added for middle alignment -->
-  <div class="search-bar">
-    <input type="text" placeholder="Search products...">
-    <button type="submit">Search</button>
-  </div>
+<header class="header">
+  <div class="logo">Shopee</div>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
-<nav>
-  <ul>
-    <li>Home</li>
-    <li>Products</li>
-    <li>About</li>
-    <li>Contact</li>
-  </ul>
-</nav>
+<main class="main-content">
+  <section class="product-list">
+    <!-- Sample product items -->
+    <div class="product-item">
+      <img src="https://via.placeholder.com/150" alt="Product">
+      <h3>Product Name</h3>
+      <p>Description lorem ipsum...</p>
+      <button>Add to Cart</button>
+    </div>
+    <!-- Add more product items as needed -->
+  </section>
+</main>
 
-<div class="product">
-  <h2>Product Name 1</h2>
-  <p>Description of Product 1</p>
-  <p>Price: $100</p>
-</div>
-
-<div class="product">
-  <h2>Product Name 2</h2>
-  <p>Description of Product 2</p>
-  <p>Price: $150</p>
-</div>
-
-<div class="product">
-  <h2>Product Name 3</h2>
-  <p>Description of Product 3</p>
-  <p>Price: $200</p>
-</div>
+<footer class="footer">
+  <p>&copy; 2024 Shopee-like Page</p>
+</footer>
 
 </body>
 </html>
+
 
